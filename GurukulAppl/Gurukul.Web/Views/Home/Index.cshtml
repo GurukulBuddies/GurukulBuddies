@@ -1,0 +1,90 @@
+﻿<link href="~/Content/kendo/2014.1.318/kendo.common.min.css" rel="stylesheet" />
+<link href="~/Content/kendo/2014.1.318/kendo.default.min.css" rel="stylesheet" />
+<script src="~/Scripts/kendo/2014.1.318/jquery.min.js"></script>
+<script src="~/Scripts/kendo/2014.1.318/kendo.web.min.js"></script>
+ <div id="example" class="k-content">
+        <div id="megaStore">
+            <ul id="menu">
+                <li>
+                    Home
+                </li>
+                <li>
+                   Category
+                    <ul>
+                        <li id="department">
+                          @Html.ActionLink("Department", "Index", "Department", new { Area = "Category" }, new { @class = "action-trackChanges" })
+                        </li>
+                        <li>
+                           Faculty
+                        </li>
+                        <li>
+                            Student
+                        </li>
+                         <li>
+                            System
+                        </li>
+                     </ul>
+                </li>
+                <li>
+                    E-Library
+                </li>
+                <li>
+                    Academic Calender
+                      <ul>
+                        <li>
+                           Academic Stastics
+                        </li>
+                        <li>
+                           Events
+                        </li>
+                        <li>
+                            Results
+                        </li>
+                     </ul>
+                </li>
+                <li>
+                    Media
+                </li>
+                <li>
+                   About Us
+                 <ul>
+                   <li>
+                     Contact Us
+                   </li>
+                 </ul>
+               </li>
+             </ul>
+        </div>
+        <style scoped>
+            #megaStore {
+                width: auto;
+                margin: auto auto;
+                padding-top: 0%;
+                    }
+            #menu h2 {
+                font-size: small;
+                text-transform: uppercase;
+                padding: 0% 0%;
+            }
+            #template img {
+                margin: auto auto 0 0;
+                float: left;
+            }
+            #template {
+                width: auto;
+            }
+           #template:after {
+                content: ".";
+                display: block;
+                height: auto;
+                clear: both;
+                visibility: hidden;
+            }
+         </style>
+        <script>
+            $(document).ready(function () {
+                jQuery.noConflict(true);
+                $("#menu").kendoMenu();
+            });
+        </script>
+    </div>

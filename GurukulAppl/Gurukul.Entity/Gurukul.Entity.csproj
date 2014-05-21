@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E4363699-0B16-4BF0-ADB8-8D4F8656C12B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gurukul.Entity</RootNamespace>
+    <AssemblyName>Gurukul.Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Domain\Collage_Profile.cs" />
+    <Compile Include="Domain\Contact.cs" />
+    <Compile Include="Domain\Department.cs" />
+    <Compile Include="Domain\ELibrary.cs" />
+    <Compile Include="Domain\Employee.cs" />
+    <Compile Include="Domain\EmployeeGrade.cs" />
+    <Compile Include="Domain\Event.cs" />
+    <Compile Include="Domain\Exam.cs" />
+    <Compile Include="Domain\ExamResult.cs" />
+    <Compile Include="Domain\ExamTimeTable.cs" />
+    <Compile Include="Domain\NewsLetter.cs" />
+    <Compile Include="Domain\Semester.cs" />
+    <Compile Include="Domain\StaticData.cs" />
+    <Compile Include="Domain\Student.cs" />
+    <Compile Include="Domain\Subject.cs" />
+    <Compile Include="Domain\User_Category.cs" />
+    <Compile Include="Domain\User_Profile.cs" />
+    <Compile Include="Domain\User_Role.cs" />
+    <Compile Include="Domain\User_Task.cs" />
+    <Compile Include="EFConfiguration\Collage_Profile_Configuration.cs" />
+    <Compile Include="EFConfiguration\Contact_Configuration.cs" />
+    <Compile Include="EFConfiguration\Department_Configuration.cs" />
+    <Compile Include="EFConfiguration\ELibrary_Configuration.cs" />
+    <Compile Include="EFConfiguration\EmployeeGrade_Configuration.cs" />
+    <Compile Include="EFConfiguration\Employee_Configuration.cs" />
+    <Compile Include="EFConfiguration\Event_Configuration.cs" />
+    <Compile Include="EFConfiguration\ExamResult_Configuration.cs" />
+    <Compile Include="EFConfiguration\ExamTimeTable_Configuration.cs" />
+    <Compile Include="EFConfiguration\Exam_Configuration.cs" />
+    <Compile Include="EFConfiguration\NewsLetter_Configuration.cs" />
+    <Compile Include="EFConfiguration\Semester_Configuration.cs" />
+    <Compile Include="EFConfiguration\StaticData_Configuration.cs" />
+    <Compile Include="EFConfiguration\Student_Configuration.cs" />
+    <Compile Include="EFConfiguration\Subject_Configuration.cs" />
+    <Compile Include="EFConfiguration\User_Category_Configuration.cs" />
+    <Compile Include="EFConfiguration\User_Profile_Configuration.cs" />
+    <Compile Include="EFConfiguration\User_Role_Configuration.cs" />
+    <Compile Include="EFConfiguration\User_Task_Configuration.cs" />
+    <Compile Include="EFDbContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gurukul.Entity", "Gurukul.Entity\Gurukul.Entity.csproj", "{E4363699-0B16-4BF0-ADB8-8D4F8656C12B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gurukul.WebApi", "Gurukul.WebApi\Gurukul.WebApi.csproj", "{569915E5-A021-41D0-9EEF-95AA5C8B316A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gurukul.Web", "Gurukul.Web\Gurukul.Web.csproj", "{24A91D81-E511-489F-89E0-13919F1CB7AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4363699-0B16-4BF0-ADB8-8D4F8656C12B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4363699-0B16-4BF0-ADB8-8D4F8656C12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4363699-0B16-4BF0-ADB8-8D4F8656C12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4363699-0B16-4BF0-ADB8-8D4F8656C12B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{569915E5-A021-41D0-9EEF-95AA5C8B316A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569915E5-A021-41D0-9EEF-95AA5C8B316A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{569915E5-A021-41D0-9EEF-95AA5C8B316A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{569915E5-A021-41D0-9EEF-95AA5C8B316A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A91D81-E511-489F-89E0-13919F1CB7AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A91D81-E511-489F-89E0-13919F1CB7AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A91D81-E511-489F-89E0-13919F1CB7AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A91D81-E511-489F-89E0-13919F1CB7AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
