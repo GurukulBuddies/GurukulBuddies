@@ -40,10 +40,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework">
-      <HintPath>..\Gurukul.Entity\bin\Debug\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="Gurukul.Entity">
-      <HintPath>..\Gurukul.Entity\bin\Debug\Gurukul.Entity.dll</HintPath>
+      <HintPath>..\..\..\..\Int Prj\Solutions\GurukulAppl\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -145,6 +142,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gurukul.Entity\Gurukul.Entity.csproj">
+      <Project>{e4363699-0b16-4bf0-adb8-8d4f8656c12b}</Project>
+      <Name>Gurukul.Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
