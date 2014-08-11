@@ -19,8 +19,8 @@ namespace Gurukul.Entity.Domain
         public string UpdateUser { get; set; }
         public Nullable<System.DateTime> UpdateDate { get; set; }
     
-        public virtual ICollection<ELibrary> ELibraries { get; set; }
-        public virtual User_Category User_Category { get; set; }
-        public virtual User_Role User_Role { get; set; }
+        //public virtual ICollection<ELibrary> ELibraries { get; set; }
+        //public virtual User_Category User_Category { get; set; }
+        //public virtual User_Role User_Role { get; set; }
     }
 }

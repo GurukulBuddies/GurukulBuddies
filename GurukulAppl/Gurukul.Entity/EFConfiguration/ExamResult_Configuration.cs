@@ -26,8 +26,8 @@ namespace Gurukul.Entity.Configuration
               this.Property(t => t.CreateDate).HasColumnName("CreateDate");
               this.Property(t => t.UpdateUser).HasColumnName("UpdateUser").HasMaxLength(50);
               this.Property(t => t.UpdateDate).HasColumnName("UpdateDate");
-              this.HasRequired(t => t.Student).WithMany(t => t.ExamResults).HasForeignKey(d => d.StudentId);
-              this.HasRequired(t => t.ExamTimeTable).WithMany(t => t.ExamResults).HasForeignKey(d => d.TimeTableId);
+              //this.HasRequired(t => t.Student).WithMany(t => t.ExamResults).HasForeignKey(d => d.StudentId);
+              //this.HasRequired(t => t.ExamTimeTable).WithMany(t => t.ExamResults).HasForeignKey(d => d.TimeTableId);
          }
     }
 }

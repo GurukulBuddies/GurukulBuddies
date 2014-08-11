@@ -16,7 +16,7 @@ namespace Gurukul.Entity.Domain
         public string UpdateUser { get; set; }
         public Nullable<System.DateTime> UpdateDate { get; set; }
     
-        public virtual Student Student { get; set; }
-        public virtual ExamTimeTable ExamTimeTable { get; set; }
+        //public virtual Student Student { get; set; }
+        //public virtual ExamTimeTable ExamTimeTable { get; set; }
     }
 }

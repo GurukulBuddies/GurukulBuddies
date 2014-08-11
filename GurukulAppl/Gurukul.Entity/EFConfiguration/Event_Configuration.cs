@@ -24,8 +24,8 @@ namespace Gurukul.Entity.Configuration
               this.Property(t => t.EventStartDate).HasColumnName("EventStartDate");
               this.Property(t => t.EventEndDate).HasColumnName("EventEndDate");
               this.Property(t => t.ContactPersonId).HasColumnName("ContactPersonId");
-              this.HasRequired(t => t.Collage_Profile).WithMany(t => t.Events).HasForeignKey(d => d.ContactPersonId);
-              this.HasOptional(t => t.StaticData).WithMany(t => t.Events).HasForeignKey(d => d.EventDataId);
+              //this.HasRequired(t => t.Collage_Profile).WithMany(t => t.Events).HasForeignKey(d => d.ContactPersonId);
+              //this.HasOptional(t => t.StaticData).WithMany(t => t.Events).HasForeignKey(d => d.EventDataId);
          }
     }
 }

@@ -23,7 +23,7 @@ namespace Gurukul.Entity
         public EFDbContext(string nameOrConnectionString)
             : base(nameOrConnectionString)
         {
-            Database.SetInitializer<EFDbContext>(new DropCreateDatabaseIfModelChanges<EFDbContext>());
+            Database.SetInitializer<EFDbContext>(null);
             ConnectionString = nameOrConnectionString;
         }
 

@@ -13,6 +13,6 @@ namespace Gurukul.Entity.Domain
         public Nullable<System.DateTime> TimePeriod { get; set; }
         public Nullable<System.DateTime> CreateDate { get; set; }
     
-        public virtual User_Role User_Role { get; set; }
+        //public virtual User_Role User_Role { get; set; }
     }
 }

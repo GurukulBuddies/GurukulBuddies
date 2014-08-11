@@ -13,7 +13,7 @@ namespace Gurukul.Entity.Domain
         public Nullable<int> UploadedUserId { get; set; }
         public Nullable<System.DateTime> CreateDate { get; set; }
     
-        public virtual Department Department { get; set; }
-        public virtual User_Profile User_Profile { get; set; }
+        //public virtual Department Department { get; set; }
+        //public virtual User_Profile User_Profile { get; set; }
     }
 }

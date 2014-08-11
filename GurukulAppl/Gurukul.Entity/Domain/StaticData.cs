@@ -16,6 +16,6 @@ namespace Gurukul.Entity.Domain
         public string UpdateUser { get; set; }
         public Nullable<System.DateTime> UpdateDate { get; set; }
     
-        public virtual ICollection<Event> Events { get; set; }
+        //public virtual ICollection<Event> Events { get; set; }
     }
 }

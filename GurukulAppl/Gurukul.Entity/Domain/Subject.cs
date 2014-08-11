@@ -13,8 +13,8 @@ namespace Gurukul.Entity.Domain
         public Nullable<int> MinMarks { get; set; }
         public Nullable<int> MaxMarks { get; set; }
     
-        public virtual Department Department { get; set; }
-        public virtual ICollection<ExamTimeTable> ExamTimeTables { get; set; }
-        public virtual Semester Semester { get; set; }
+        //public virtual Department Department { get; set; }
+        //public virtual ICollection<ExamTimeTable> ExamTimeTables { get; set; }
+        //public virtual Semester Semester { get; set; }
     }
 }

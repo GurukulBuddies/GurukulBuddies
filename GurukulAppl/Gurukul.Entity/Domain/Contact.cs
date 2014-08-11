@@ -25,6 +25,6 @@ namespace Gurukul.Entity.Domain
         public string UpdateUser { get; set; }
         public Nullable<System.DateTime> UpdateDate { get; set; }
     
-        public virtual Collage_Profile Collage_Profile { get; set; }
+        //public virtual Collage_Profile Collage_Profile { get; set; }
     }
 }

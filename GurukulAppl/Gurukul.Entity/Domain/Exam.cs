@@ -9,6 +9,6 @@ namespace Gurukul.Entity.Domain
         public int ExamId { get; set; }
         public string ExamName { get; set; }
     
-        public virtual ICollection<ExamTimeTable> ExamTimeTables { get; set; }
+        //public virtual ICollection<ExamTimeTable> ExamTimeTables { get; set; }
     }
 }

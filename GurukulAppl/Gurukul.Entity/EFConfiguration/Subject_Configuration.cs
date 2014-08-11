@@ -23,8 +23,8 @@ namespace Gurukul.Entity.Configuration
               this.Property(t => t.SemId).HasColumnName("SemId");
               this.Property(t => t.MinMarks).HasColumnName("MinMarks");
               this.Property(t => t.MaxMarks).HasColumnName("MaxMarks");
-              this.HasRequired(t => t.Department).WithMany(t => t.Subjects).HasForeignKey(d => d.DeptId);
-              this.HasRequired(t => t.Semester).WithMany(t => t.Subjects).HasForeignKey(d => d.SemId);
+              //this.HasRequired(t => t.Department).WithMany(t => t.Subjects).HasForeignKey(d => d.DeptId);
+              //this.HasRequired(t => t.Semester).WithMany(t => t.Subjects).HasForeignKey(d => d.SemId);
          }
     }
 }

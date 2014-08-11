@@ -23,7 +23,7 @@ namespace Gurukul.Entity.Configuration
               this.Property(t => t.Description).HasColumnName("Description");
               this.Property(t => t.TimePeriod).HasColumnName("TimePeriod");
               this.Property(t => t.CreateDate).HasColumnName("CreateDate");
-              this.HasRequired(t => t.User_Role).WithMany(t => t.NewsLetters).HasForeignKey(d => d.RoleId);
+             // this.HasRequired(t => t.User_Role).WithMany(t => t.NewsLetters).HasForeignKey(d => d.RoleId);
          }
     }
 }

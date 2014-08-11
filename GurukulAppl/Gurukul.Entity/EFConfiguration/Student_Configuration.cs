@@ -25,9 +25,9 @@ namespace Gurukul.Entity.Configuration
               this.Property(t => t.GraduateDate).HasColumnName("GraduateDate");
               this.Property(t => t.CreatedDate).HasColumnName("CreatedDate");
               this.Property(t => t.ModifiedDate).HasColumnName("ModifiedDate");
-              this.HasRequired(t => t.Collage_Profile).WithMany(t => t.Students).HasForeignKey(d => d.ProfileId);
-              this.HasRequired(t => t.Department).WithMany(t => t.Students).HasForeignKey(d => d.DeptId);
-              this.HasRequired(t => t.Semester).WithMany(t => t.Students).HasForeignKey(d => d.SemId);
+              //this.HasRequired(t => t.Collage_Profile).WithMany(t => t.Students).HasForeignKey(d => d.ProfileId);
+              //this.HasRequired(t => t.Department).WithMany(t => t.Students).HasForeignKey(d => d.DeptId);
+              //this.HasRequired(t => t.Semester).WithMany(t => t.Students).HasForeignKey(d => d.SemId);
          }
     }
 }

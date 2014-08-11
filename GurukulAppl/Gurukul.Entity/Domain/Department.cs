@@ -14,10 +14,10 @@ namespace Gurukul.Entity.Domain
         public string UpdateUser { get; set; }
         public Nullable<System.DateTime> UpdateDate { get; set; }
     
-        public virtual ICollection<ELibrary> ELibraries { get; set; }
-        public virtual ICollection<Employee> Employees { get; set; }
-        public virtual ICollection<ExamTimeTable> ExamTimeTables { get; set; }
-        public virtual ICollection<Student> Students { get; set; }
-        public virtual ICollection<Subject> Subjects { get; set; }
+        //public virtual ICollection<ELibrary> ELibraries { get; set; }
+        //public virtual ICollection<Employee> Employees { get; set; }
+        //public virtual ICollection<ExamTimeTable> ExamTimeTables { get; set; }
+        //public virtual ICollection<Student> Students { get; set; }
+        //public virtual ICollection<Subject> Subjects { get; set; }
     }
 }

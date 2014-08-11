@@ -19,10 +19,10 @@ namespace Gurukul.Entity.Domain
         public string UpdateUser { get; set; }
         public Nullable<System.DateTime> UpdateDate { get; set; }
     
-        public virtual User_Category User_Category { get; set; }
-        public virtual ICollection<Contact> Contacts { get; set; }
-        public virtual ICollection<Employee> Employees { get; set; }
-        public virtual ICollection<Event> Events { get; set; }
-        public virtual ICollection<Student> Students { get; set; }
+        //public virtual User_Category User_Category { get; set; }
+        //public virtual ICollection<Contact> Contacts { get; set; }
+        //public virtual ICollection<Employee> Employees { get; set; }
+        //public virtual ICollection<Event> Events { get; set; }
+        //public virtual ICollection<Student> Students { get; set; }
     }
 }

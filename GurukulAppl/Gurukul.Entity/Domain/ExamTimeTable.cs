@@ -17,10 +17,10 @@ namespace Gurukul.Entity.Domain
         public string UpdateUser { get; set; }
         public Nullable<System.DateTime> UpdateDate { get; set; }
     
-        public virtual Department Department { get; set; }
-        public virtual Exam Exam { get; set; }
-        public virtual ICollection<ExamResult> ExamResults { get; set; }
-        public virtual Semester Semester { get; set; }
-        public virtual Subject Subject { get; set; }
+        //public virtual Department Department { get; set; }
+        //public virtual Exam Exam { get; set; }
+        //public virtual ICollection<ExamResult> ExamResults { get; set; }
+        //public virtual Semester Semester { get; set; }
+        //public virtual Subject Subject { get; set; }
     }
 }

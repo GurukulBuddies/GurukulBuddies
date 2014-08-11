@@ -14,7 +14,7 @@ namespace Gurukul.Entity.Domain
         public Nullable<System.DateTime> EventEndDate { get; set; }
         public int ContactPersonId { get; set; }
     
-        public virtual Collage_Profile Collage_Profile { get; set; }
-        public virtual StaticData StaticData { get; set; }
+        //public virtual Collage_Profile Collage_Profile { get; set; }
+        //public virtual StaticData StaticData { get; set; }
     }
 }
